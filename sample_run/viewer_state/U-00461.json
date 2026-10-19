@@ -1,0 +1,33 @@
+{
+  "user_id": "U-00461",
+  "facts": {
+    "dialect": "d5",
+    "subscription_status": "active",
+    "signup_at": "2024-10-31T13:04:28.598Z",
+    "dialect_conflicts": [
+      {
+        "source": "profile",
+        "value": "d1",
+        "chosen": "d5"
+      }
+    ]
+  },
+  "active_goal": {
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "deadline": "2026-10-04T09:32:20.370Z",
+    "content_slug": "jamo-hasa-d5",
+    "success_event": "play_started",
+    "success_condition": "same content_slug as the unfinished series",
+    "window_hours": 72,
+    "rule_version": "2026-09-30",
+    "assumptions": [
+      "G10 is excluded because the supplied stream has no measurable success event."
+    ]
+  },
+  "last_decision_id": "D-01175",
+  "decisions": [
+    "D-00140",
+    "D-01175"
+  ]
+}

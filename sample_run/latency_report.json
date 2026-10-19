@@ -1,0 +1,11 @@
+{
+  "decisions": 2679,
+  "actions": 1098,
+  "no_action_decisions": 1581,
+  "duplicate_triggers_skipped": 90,
+  "mean_processing_ms": 0.307,
+  "p95_processing_ms": 0.976,
+  "max_processing_ms": 2.853,
+  "target_ms": 60000,
+  "note": "Local processing time is measured; replay's deliver_at is the simulated trigger time."
+}

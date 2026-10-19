@@ -1,0 +1,31 @@
+{
+  "user_id": "U-03858",
+  "facts": {
+    "dialect": "d1",
+    "subscription_status": "active",
+    "signup_at": "2025-12-11T04:54:17.476Z",
+    "dialect_conflicts": [
+      {
+        "source": "profile",
+        "value": "d5",
+        "chosen": "d1"
+      }
+    ]
+  },
+  "active_goal": {
+    "goal_id": "G08",
+    "name": "try_new_release_7d",
+    "deadline": "2026-10-08T14:31:03.313Z",
+    "success_event": "play_started",
+    "success_condition": "a title released in the 30 days before the goal start",
+    "window_hours": 168,
+    "rule_version": "2026-09-30",
+    "assumptions": [
+      "G10 is excluded because the supplied stream has no measurable success event."
+    ]
+  },
+  "last_decision_id": "D-01864",
+  "decisions": [
+    "D-01864"
+  ]
+}

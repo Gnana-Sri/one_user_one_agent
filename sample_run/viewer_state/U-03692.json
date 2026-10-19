@@ -1,0 +1,32 @@
+{
+  "user_id": "U-03692",
+  "facts": {
+    "dialect": "d1",
+    "subscription_status": "unknown",
+    "signup_at": "2026-09-30T01:12:53.337Z",
+    "dialect_conflicts": [
+      {
+        "source": "campaign",
+        "value": "d3",
+        "chosen": "d1"
+      }
+    ]
+  },
+  "active_goal": {
+    "goal_id": "G03",
+    "name": "second_day_return_2d",
+    "deadline": "2026-10-03T14:56:17.080Z",
+    "success_event": "play_started",
+    "success_condition": "on a later IST calendar day within the window",
+    "window_hours": 48,
+    "rule_version": "2026-10-01-G03-corrected",
+    "assumptions": [
+      "G10 is excluded because the supplied stream has no measurable success event.",
+      "G03 corrected at replay time; app_open alone is not success."
+    ]
+  },
+  "last_decision_id": "D-01938",
+  "decisions": [
+    "D-01938"
+  ]
+}

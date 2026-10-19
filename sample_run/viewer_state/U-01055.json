@@ -1,0 +1,28 @@
+{
+  "user_id": "U-01055",
+  "facts": {
+    "dialect": "d5",
+    "subscription_status": "active",
+    "signup_at": "2025-06-01T06:58:56.228Z",
+    "dialect_conflicts": []
+  },
+  "active_goal": {
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "deadline": "2026-10-04T09:00:11.911Z",
+    "content_slug": "diti-kochu-d5",
+    "success_event": "play_started",
+    "success_condition": "same content_slug as the unfinished series",
+    "window_hours": 72,
+    "rule_version": "2026-09-30",
+    "assumptions": [
+      "G10 is excluded because the supplied stream has no measurable success event."
+    ]
+  },
+  "last_decision_id": "D-01096",
+  "decisions": [
+    "D-00553",
+    "D-01077",
+    "D-01096"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "user_id": "U-00532",
+  "facts": {
+    "dialect": "d4",
+    "subscription_status": "active",
+    "signup_at": "2026-08-27T19:01:55.079Z",
+    "dialect_conflicts": [
+      {
+        "source": "profile",
+        "value": "d2",
+        "chosen": "d4"
+      }
+    ]
+  },
+  "active_goal": {
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "deadline": "2026-10-04T04:45:39.435Z",
+    "content_slug": "radi-d4",
+    "success_event": "play_started",
+    "success_condition": "same content_slug as the unfinished series",
+    "window_hours": 72,
+    "rule_version": "2026-09-30",
+    "assumptions": [
+      "G10 is excluded because the supplied stream has no measurable success event."
+    ]
+  },
+  "last_decision_id": "D-00402",
+  "decisions": [
+    "D-00402"
+  ]
+}

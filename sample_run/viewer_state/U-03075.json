@@ -1,0 +1,26 @@
+{
+  "user_id": "U-03075",
+  "facts": {
+    "dialect": "d4",
+    "subscription_status": "lapsed",
+    "signup_at": "2026-08-17T03:42:37.611Z",
+    "dialect_conflicts": []
+  },
+  "active_goal": {
+    "goal_id": "G06",
+    "name": "reactivate_lapsed_14d",
+    "deadline": "2026-10-15T04:45:23.941Z",
+    "success_event": "purchase_completed",
+    "success_condition": "any paid plan",
+    "window_hours": 336,
+    "rule_version": "2026-09-30",
+    "assumptions": [
+      "G10 is excluded because the supplied stream has no measurable success event."
+    ]
+  },
+  "last_decision_id": "D-02379",
+  "decisions": [
+    "D-00386",
+    "D-02379"
+  ]
+}

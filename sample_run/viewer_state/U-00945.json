@@ -1,0 +1,26 @@
+{
+  "user_id": "U-00945",
+  "facts": {
+    "dialect": "unknown",
+    "subscription_status": "unknown",
+    "signup_at": "2026-10-01T07:47:02.810Z",
+    "dialect_conflicts": []
+  },
+  "active_goal": {
+    "goal_id": "G01",
+    "name": "first_play_24h",
+    "deadline": "2026-10-02T07:47:18.831Z",
+    "success_event": "play_started",
+    "success_condition": "any title",
+    "window_hours": 24,
+    "rule_version": "2026-09-30",
+    "assumptions": [
+      "G10 is excluded because the supplied stream has no measurable success event."
+    ]
+  },
+  "last_decision_id": "D-00942",
+  "decisions": [
+    "D-00941",
+    "D-00942"
+  ]
+}

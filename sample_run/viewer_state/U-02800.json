@@ -1,0 +1,32 @@
+{
+  "user_id": "U-02800",
+  "facts": {
+    "dialect": "d4",
+    "subscription_status": "active",
+    "signup_at": "2025-08-14T12:37:11.500Z",
+    "dialect_conflicts": [
+      {
+        "source": "campaign",
+        "value": "d1",
+        "chosen": "d4"
+      }
+    ]
+  },
+  "active_goal": {
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "deadline": "2026-10-04T17:18:23.587Z",
+    "content_slug": "loba-d4",
+    "success_event": "play_started",
+    "success_condition": "same content_slug as the unfinished series",
+    "window_hours": 72,
+    "rule_version": "2026-09-30",
+    "assumptions": [
+      "G10 is excluded because the supplied stream has no measurable success event."
+    ]
+  },
+  "last_decision_id": "D-02548",
+  "decisions": [
+    "D-02548"
+  ]
+}

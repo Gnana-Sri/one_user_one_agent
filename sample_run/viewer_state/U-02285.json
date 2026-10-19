@@ -1,0 +1,32 @@
+{
+  "user_id": "U-02285",
+  "facts": {
+    "dialect": "NA",
+    "subscription_status": "active",
+    "signup_at": "2025-01-20T18:31:30.167Z",
+    "dialect_conflicts": [
+      {
+        "source": "profile",
+        "value": "d6",
+        "chosen": "NA"
+      }
+    ]
+  },
+  "active_goal": {
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "deadline": "2026-10-04T13:43:47.805Z",
+    "content_slug": "guka-kosusa-d2",
+    "success_event": "play_started",
+    "success_condition": "same content_slug as the unfinished series",
+    "window_hours": 72,
+    "rule_version": "2026-09-30",
+    "assumptions": [
+      "G10 is excluded because the supplied stream has no measurable success event."
+    ]
+  },
+  "last_decision_id": "D-01695",
+  "decisions": [
+    "D-01695"
+  ]
+}

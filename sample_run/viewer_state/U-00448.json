@@ -1,0 +1,32 @@
+{
+  "user_id": "U-00448",
+  "facts": {
+    "dialect": "d5",
+    "subscription_status": "active",
+    "signup_at": "2025-03-25T17:57:22.659Z",
+    "dialect_conflicts": [
+      {
+        "source": "profile",
+        "value": "d3",
+        "chosen": "d5"
+      }
+    ]
+  },
+  "active_goal": {
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "deadline": "2026-10-04T14:02:02.074Z",
+    "content_slug": "gubava-gihaya-d5",
+    "success_event": "play_started",
+    "success_condition": "same content_slug as the unfinished series",
+    "window_hours": 72,
+    "rule_version": "2026-09-30",
+    "assumptions": [
+      "G10 is excluded because the supplied stream has no measurable success event."
+    ]
+  },
+  "last_decision_id": "D-01756",
+  "decisions": [
+    "D-01756"
+  ]
+}

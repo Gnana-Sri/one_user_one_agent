@@ -1,0 +1,34 @@
+{
+  "user_id": "U-02850",
+  "facts": {
+    "dialect": "d2",
+    "subscription_status": "never",
+    "signup_at": "2025-01-12T18:47:21.417Z",
+    "dialect_conflicts": [
+      {
+        "source": "profile",
+        "value": "d4",
+        "chosen": "d2"
+      }
+    ]
+  },
+  "active_goal": {
+    "goal_id": "G05",
+    "name": "first_paid_7d",
+    "deadline": "2026-10-08T17:28:33.397Z",
+    "success_event": "purchase_completed",
+    "success_condition": "is_trial = false",
+    "window_hours": 168,
+    "rule_version": "2026-09-30",
+    "assumptions": [
+      "G10 is excluded because the supplied stream has no measurable success event.",
+      "A paid conversion requires purchase_completed with is_trial=false."
+    ]
+  },
+  "last_decision_id": "D-02576",
+  "decisions": [
+    "D-00202",
+    "D-02173",
+    "D-02576"
+  ]
+}

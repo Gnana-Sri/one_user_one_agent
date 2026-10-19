@@ -1,0 +1,26 @@
+{
+  "user_id": "U-01886",
+  "facts": {
+    "dialect": "d2",
+    "subscription_status": "active",
+    "signup_at": "2025-10-05T17:50:05.168Z",
+    "dialect_conflicts": []
+  },
+  "active_goal": {
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "deadline": "2026-10-04T16:10:20.007Z",
+    "content_slug": "molo-d2",
+    "success_event": "play_started",
+    "success_condition": "same content_slug as the unfinished series",
+    "window_hours": 72,
+    "rule_version": "2026-09-30",
+    "assumptions": [
+      "G10 is excluded because the supplied stream has no measurable success event."
+    ]
+  },
+  "last_decision_id": "D-02321",
+  "decisions": [
+    "D-02321"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "user_id": "U-04915",
+  "facts": {
+    "dialect": "d1",
+    "subscription_status": "never",
+    "signup_at": "2026-09-20T08:18:47.925Z",
+    "dialect_conflicts": []
+  },
+  "active_goal": {
+    "goal_id": "G02",
+    "name": "first_full_episode_3d",
+    "deadline": "2026-10-04T10:20:34.325Z",
+    "success_event": "episode_completed",
+    "success_condition": "any episode",
+    "window_hours": 72,
+    "rule_version": "2026-09-30",
+    "assumptions": [
+      "G10 is excluded because the supplied stream has no measurable success event."
+    ]
+  },
+  "last_decision_id": "D-02565",
+  "decisions": [
+    "D-01262",
+    "D-01549",
+    "D-02565"
+  ]
+}

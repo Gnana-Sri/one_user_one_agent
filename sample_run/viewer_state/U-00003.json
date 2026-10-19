@@ -1,0 +1,40 @@
+{
+  "user_id": "U-00003",
+  "facts": {
+    "dialect": "d3",
+    "subscription_status": "active",
+    "signup_at": "2026-06-24T00:24:05.448Z",
+    "dialect_conflicts": [
+      {
+        "source": "profile",
+        "value": "d2",
+        "chosen": "d3"
+      },
+      {
+        "source": "campaign",
+        "value": "d4",
+        "chosen": "d3"
+      }
+    ]
+  },
+  "active_goal": {
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "deadline": "2026-10-04T16:36:24.418Z",
+    "content_slug": "lomobha-moni-d3",
+    "success_event": "play_started",
+    "success_condition": "same content_slug as the unfinished series",
+    "window_hours": 72,
+    "rule_version": "2026-09-30",
+    "assumptions": [
+      "G10 is excluded because the supplied stream has no measurable success event."
+    ]
+  },
+  "last_decision_id": "D-02412",
+  "decisions": [
+    "D-00129",
+    "D-00725",
+    "D-02411",
+    "D-02412"
+  ]
+}

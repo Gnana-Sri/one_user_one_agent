@@ -1,0 +1,32 @@
+{
+  "user_id": "U-01183",
+  "facts": {
+    "dialect": "d6",
+    "subscription_status": "active",
+    "signup_at": "2025-09-26T04:41:20.839Z",
+    "dialect_conflicts": [
+      {
+        "source": "profile",
+        "value": "d2",
+        "chosen": "d6"
+      }
+    ]
+  },
+  "active_goal": {
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "deadline": "2026-10-04T06:01:00.811Z",
+    "content_slug": "rasuya-moni-d6",
+    "success_event": "play_started",
+    "success_condition": "same content_slug as the unfinished series",
+    "window_hours": 72,
+    "rule_version": "2026-09-30",
+    "assumptions": [
+      "G10 is excluded because the supplied stream has no measurable success event."
+    ]
+  },
+  "last_decision_id": "D-00730",
+  "decisions": [
+    "D-00730"
+  ]
+}

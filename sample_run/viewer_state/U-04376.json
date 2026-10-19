@@ -1,0 +1,35 @@
+{
+  "user_id": "U-04376",
+  "facts": {
+    "dialect": "d2",
+    "subscription_status": "active",
+    "signup_at": "2025-04-12T07:35:43.443Z",
+    "dialect_conflicts": [
+      {
+        "source": "profile",
+        "value": "d1",
+        "chosen": "d2"
+      }
+    ]
+  },
+  "active_goal": {
+    "goal_id": "G07",
+    "name": "resume_series_3d",
+    "deadline": "2026-10-04T15:25:06.628Z",
+    "content_slug": "bhatesa-bayaya-d2",
+    "success_event": "play_started",
+    "success_condition": "same content_slug as the unfinished series",
+    "window_hours": 72,
+    "rule_version": "2026-09-30",
+    "assumptions": [
+      "G10 is excluded because the supplied stream has no measurable success event."
+    ]
+  },
+  "last_decision_id": "D-02176",
+  "decisions": [
+    "D-00359",
+    "D-00614",
+    "D-01350",
+    "D-02176"
+  ]
+}
